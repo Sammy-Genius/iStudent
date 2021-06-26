@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <title>iStudent</title>
+</head>
+<body>
+    <div class="container">
+        <header class="flexbox">
+            <p class="bold"><i class="fab fa-symfony"></i> iStudent</p>
+            <div class="search-box flexbox">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search Files...">
+            </div>
+            <div class="filter flexbox">
+                <p>Filter</p>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <span class="notification"><i class="far fa-bell"></i></span>
+            <div class="profilePic flexbox">
+                <img src="./assets/1.png" alt="profile picture dashboard">
+            </div>
+        </header>
+
+        <!---------aside------------>
+
+        <aside class="flexbox">
+            <div class="wrapper flexbox">
+                <div class="balance-box flexbox">
+                    <div class="balance flexbox">
+                        <p>Balance</p>
+                        <p>$12.577,00</p>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <ul class="list-items">
+                    <li><i class="fas fa-shopping-bag"></i> Buy a course</li>
+                    <li><i class="fas fa-briefcase"></i> Semester info</li>
+                    <li><i class="fas fa-user-alt"></i> Account</li>
+                    <li><i class="fas fa-exchange-alt"></i> Change Subjects</li>
+                    <li><i class="fas fa-cog"></i> Setting</li>
+                </ul>
+            </div>
+            <div class="logout-box">
+                <div class="image-wrapper flexbox">
+                    <div class="image-box flexbox"></div>
+                    <p>Try the AI</p>
+                    <p>feature <i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="logout flexbox">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <p>logout</p>
+                </div>
+            </div>
+        </aside>
+
+        <!---------------section------------>
+        <section class="flexbox">
+            <div class="section-wrapper">
+                <div class="section-box1">
+                    <div class="caption flexbox">
+                       <p>Welcome back Sammy!</p>
+                       <div class="menu-btn flexbox"><i class="fas fa-ellipsis-h"></i></div>
+                    </div>
+                    <!---------Box That Wraps The Entire Subjects------------->
+                    <div class="subjects-box flexbox">
+                        <!----------Maths------------>
+                        <div class="maths shapes flexbox shapes-alignment">
+                            <div class="circles flexbox">
+                                <img src="./assets/10.png" alt="dashboard maths image">
+                            </div>
+                            <div class="rotate">
+                                <p>Analytics Maths</p>
+                            </div>
+                            <div class="icons flexbox">
+                                <i class="fas fa-microphone"></i>
+                            </div>
+                        </div>
+
+                        <!------English Literature-------->
+                        <div class="english shapes2 flexbox shapes-alignment">
+                            <div class="circles flexbox">
+                                <img src="./assets/2.png" alt="dashboard english image">
+                            </div>
+                            <div class="lit-wrapper flexbox">
+                                <div class="lit-box">
+                                    <p>English</p>
+                                    <p>Literature</p>
+                                </div>
+                                <p class="lectures bold">Class</p>
+                            </div>
+                            <p class="time">You have a class in 32 mins</p>
+                            <div class="icons-box flexbox">
+                                <div class="icons flexbox">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="icons flexbox">
+                                    <i class="far fa-check-circle"></i>
+                                </div>
+                                <div class="icons flexbox">
+                                    <i class="fas fa-pen"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!---------History---------->
+                        <div class="history shapes flexbox shapes-alignment">
+                            <div class="circles flexbox">
+                                <img src="./assets/5.png" alt="dashboard history image">
+                            </div>
+                            <div class="rotate">
+                                <p>history of America</p>
+                            </div>
+                            <div class="icons flexbox">
+                                <i class="fas fa-microphone"></i>
+                            </div>
+                        </div>
+
+                        <!----------Tallah---------->
+                        <div class="tallah shapes flexbox shapes-alignment">
+                            <div class="circles flexbox">
+                                <img src="./assets/4.png" alt="dashboard tallah cotton image">
+                            </div>
+                            <div class="rotate">
+                                <p>Tallah Cotton</p>
+                            </div>
+                            <div class="icons flexbox">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class= "result caption flexbox">
+                        <p>Course Result</p>
+                        <div class="menu-btn flexbox"><i class="fas fa-ellipsis-h"></i></div>
+                     </div>
+                    <div class="results-box flexbox">
+                        <div class="literature shapes flexbox shapes-alignment">
+                            <p class="rotate">Literature</p>
+                            <p>Due</p>
+                        </div>
+                        <div class="geography shapes flexbox shapes-alignment">
+                            <p class="rotate">Geography</p>
+                            <p>69 <span class="percent">%</span></p>
+                        </div>
+                        <div class="history-marks shapes flexbox shapes-alignment">
+                            <p class="rotate">History</p>
+                            <p>82 <span class="percent">%</span></p>
+                        </div>
+                        <div class="physics shapes flexbox shapes-alignment">
+                            <p class="rotate">Physics</p>
+                            <p>99 <span class="percent">%</span></p>
+                        </div>
+                        <div class="statistics shapes flexbox shapes-alignment">
+                            <p class="rotate">Statistics</p>
+                            <p>69 <span class="percent">%</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--------Section box 2----------->
+                <div class="section-box2">
+                    <div class="caption flexbox">
+                        <p>Books</p>
+                        <div class="arrow menu-btn flexbox">< ></div>
+                    </div>
+                    <div class="book-container flexbox">
+                        <div class="religion books"></div>
+                        <div class="e-myth books"></div>
+                    </div>
+                    <div class="progress caption flexbox">
+                        <p>Today's Progress</p>
+                    </div>
+                    <div class="progress-box flexbox shapes-alignment">
+                        <div class="outer-box default-progress">
+                            <div class="inner-box default-progress flexbox">
+                                <div class="project">
+                                    <h4>Project Management 3</h4>
+                                    <div class="prog-percent flexbox">
+                                        <span>89%</span>
+                                        <div class="outer-bar bar">
+                                            <div class="inner-bar bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="process flexbox shapes-alignment">
+                                    <div class="play">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                    <h5 class="loading">In Progress</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-outerBox default-progress flexbox">
+                            <div class="project">
+                                <h4>Project Management 3</h4>
+                                <div class="prog-percent flexbox">
+                                    <span>14%</span>
+                                    <div class="outer-bar bar"></div>
+                                </div>
+                            </div>
+                            <div class="process flexbox shapes-alignment">
+                                <h5 class="loading">In Progress</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
